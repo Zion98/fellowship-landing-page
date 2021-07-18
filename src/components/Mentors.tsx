@@ -170,8 +170,8 @@ const MentorWrapper = styled.div`
   @media only screen and (min-width: 400px) and (max-width: 450px) {
     .company-img2 {
       right: 4rem;
-    }  
-}
+    }
+  }
 
   @media only screen and (min-width: 769px) and (max-width: 1023px) {
     padding: 2rem;

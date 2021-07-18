@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-interface Leader{
-  image?:string;
-   leaderName?:string;
-    leaderTitle?:string;
-     jobs?:string[]; 
+interface Leader {
+  image?: string;
+  leaderName?: string;
+  leaderTitle?: string;
+  jobs?: string[];
 }
-const SingleLeader = ({ image, leaderName, leaderTitle, jobs }:Leader) => {
+const SingleLeader = ({ image, leaderName, leaderTitle, jobs }: Leader) => {
   return (
     <SingleWrapper>
       <div className="lead-image image1">
